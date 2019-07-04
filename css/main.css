@@ -107,13 +107,14 @@ body {
   font-size: 1.25em;
   height: 100%;
   color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 header,
 footer {
   height: 80px;
   width: 100%;
-  border: 1px solid yellow;
 }
 
 main,
@@ -124,7 +125,8 @@ header {
 main {
   height: 250px;
   width: 100%;
-  border: 1px solid yellow;
+  border-bottom: 2px solid #ccc;
+  font-size: 1.5em;
 }
 
 footer,
@@ -134,6 +136,23 @@ main, {
   justify-content: center;
   align-items: center;
   padding: 0 2em;
+}
+
+footer {
+  border-top: 2px solid #ccc;
+  color: yellow;
+}
+
+span {
+  font-family: 'Lora', sans-serif;
+}
+
+h1 {
+  font-family: 'lora', sans-serif;
+}
+
+#paragraph {
+  padding-top: 2.25em;
 }
 
 #flex-container {
@@ -160,8 +179,8 @@ main, {
 }
 
 #div-2 {
-  border-left: 1px solid gray;
-  border-right: 1px solid gray;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
   padding: 0 1em;
 }
 
